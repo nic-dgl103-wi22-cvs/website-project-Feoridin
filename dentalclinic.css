@@ -10,7 +10,9 @@ header{
     display: flex;   
     flex-direction: column;
     align-items: center;
-    margin: 50px 50px;
+    margin: 30px 50px;
+    font-size: 110%;
+    
     }
 h1{
   height: 0px;/*makes the address and title near each other*/
@@ -50,9 +52,7 @@ hr{
     color: rgb(54, 54, 106);
     text-align: center;
     font-family: Arial, Sans-serif;
-  }
-  
-  
+  }   
   .main{
     display:flex;
     flex-direction: column;
@@ -86,7 +86,10 @@ div.main a:hover {
     display: flex;
     justify-content: center;    
     font-family: Helvetica, sans-serif;
-    color:rgb(54, 54, 106);    
+    color:rgb(54, 54, 106);
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 20;   
 }
 .Support{
     display: flex;
@@ -105,12 +108,16 @@ div.main a:hover {
   .logo2{
       margin: 0 20px;
   }
+  .statement{
+      display: flex;
+      justify-content: center;
+  }
   .button1{
     display: flex;
     background:rgb(54, 54, 106);
     color:rgb(204, 234, 73);
     height: 75px;
-    margin: 20px;
+    margin: 5px;
     padding: 0px 30px;
     justify-content: center;
     text-align: center;
@@ -121,10 +128,5 @@ div.main a:hover {
       color: rgb(204, 234, 73);
       font-family: Helvetica, Sans-Serif;
   }
-.container2{
-    display: flex;    
-    justify-content: center;
-    margin: 20px 120px 0px 0px;
-    font-family: Helvetica, Sans-Serif;    
-  }
+
 
