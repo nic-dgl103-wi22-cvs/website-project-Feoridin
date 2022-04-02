@@ -1,16 +1,16 @@
 header{
     display: flex;
      height: 200px;
-     justify-content: space-evenly;
+     justify-content: center;     
     }
 .logo{
-    margin: 0px 60px;
+    margin: 0px 10px;
 }
 .title{
     display: flex;   
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
+    margin: 50px 50px;
     }
 h1{
   height: 0px;/*makes the address and title near each other*/
@@ -20,7 +20,7 @@ h1{
 .address{
     display: flex;
     font-family: Arial, Sans-serif;
-    margin: 10px auto;
+    margin: 10px 20px;
 }
 hr{
   border-top: 10px solid rgb(204, 234, 73);
@@ -31,7 +31,8 @@ hr{
     background-color: rgb(105, 207, 249); /* Add a black background color to the top navigation */
     display: flex;
     justify-content: space-evenly;  
-    margin: 0px auto;        
+    margin: 0px auto;
+            
   }
     /* Style the links inside the navigation bar */
   .navigation {
@@ -45,10 +46,16 @@ hr{
     background-color: rgb(204, 234, 73);
     color: black;
   }
+  .navigation a{
+    color: rgb(54, 54, 106);
+    text-align: center;
+    font-family: Arial, Sans-serif;
+  }
   .container1{
     display: flex;    
     justify-content: center;
-    margin: 0px 120px 0px 0px;    
+    margin: 20px 120px 0px 0px;
+    font-family: Helvetica, Sans-Serif;    
   }
   .logo2{
       margin: 0 20px;
@@ -63,5 +70,10 @@ hr{
     justify-content: center;
     text-align: center;
     border-radius: 50px;
-    box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);    
+    box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);      
+  }
+  .button1 a{
+      color: rgb(204, 234, 73);
+      font-family: Helvetica, Sans-Serif;
+
   }

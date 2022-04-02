@@ -1,0 +1,81 @@
+header{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+/* Add a gray background color to the top navigation */
+nav{
+  position: relative;
+  background-color: rgb(190, 188, 188);
+  display: flex;
+  justify-content: left;
+      
+}
+
+.nav1{
+  display: flex;
+  margin: 0px auto;/*prevents from resizing of the navigation links due to change of resolution*/
+
+}
+/* Style the links inside the navigation bar */
+.navigation {
+  padding: 10px 20px;
+  font-size: 17px;
+  width: 120px;
+
+}
+.navigation a{
+    color: white;
+    text-align: center;
+}
+/* Change the color of links on hover */
+.navigation:hover {
+  background-color: rgb(68, 233, 156);
+  color: black;
+}
+  /*alignment of main*/
+main{
+  width: 820px;
+  margin: 0 auto;
+}
+/*assign color to Image description*/
+.emphasis{background-color: gray;}
+
+.Box {
+display: flex;
+margin: 10px;
+gap: 20px;
+
+}
+/*Assign Border to Image2*/
+.Image2 {
+  box-sizing: border-box;
+  width: 50%;
+  border: 2px solid rgb(68, 233, 156);
+  
+}
+
+.foot1{
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  padding: 50px 10px 0px;
+
+}
+footer {
+  position: relative;
+  background-color: rgb(4, 4, 83);
+  overflow: hidden;
+  display: flex;
+  justify-content:left;
+  color: white;
+  margin: 50px;
+  padding: 10px 0px;
+  }
+.footer1 {
+  margin: 0px 490px;
+}
+
+  
+
+
