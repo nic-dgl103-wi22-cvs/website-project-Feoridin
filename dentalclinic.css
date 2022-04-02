@@ -4,7 +4,7 @@ header{
      justify-content: space-evenly;
     }
 .logo{
-    margin: 0px auto;
+    margin: 0px 60px;
 }
 .title{
     display: flex;   
@@ -21,11 +21,6 @@ h1{
     display: flex;
     font-family: Arial, Sans-serif;
     margin: 10px auto;
-
-}
-.logo2{
-    display: flex;
-    margin: 38px;
 }
 hr{
   border-top: 10px solid rgb(204, 234, 73);
@@ -49,4 +44,24 @@ hr{
   .navigation:hover {
     background-color: rgb(204, 234, 73);
     color: black;
+  }
+  .container1{
+    display: flex;    
+    justify-content: center;
+    margin: 0px 120px 0px 0px;    
+  }
+  .logo2{
+      margin: 0 20px;
+  }
+  .button1{
+    display: flex;
+    background:rgb(54, 54, 106);
+    color:rgb(204, 234, 73);
+    height: 75px;
+    margin: 20px;
+    padding: 0px 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);    
   }
