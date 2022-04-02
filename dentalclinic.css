@@ -1,0 +1,52 @@
+header{
+    display: flex;
+     height: 200px;
+     justify-content: space-evenly;
+    }
+.logo{
+    margin: 0px auto;
+}
+.title{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    }
+h1{
+  height: 0px;/*makes the address and title near each other*/
+  font-family: Helvetica, Sans-Serif;
+  color:rgb(54, 54, 106)
+}
+.address{
+    display: flex;
+    font-family: Arial, Sans-serif;
+    margin: 10px auto;
+
+}
+.logo2{
+    display: flex;
+    margin: 38px;
+}
+hr{
+  border-top: 10px solid rgb(204, 234, 73);
+  margin: 0px;
+} 
+  nav{
+    position: relative;
+    background-color: rgb(105, 207, 249); /* Add a black background color to the top navigation */
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 0px auto;        
+  }
+    /* Style the links inside the navigation bar */
+  .navigation {
+    padding: 10px 20px;
+    font-size: 17px;
+    width: 120px;
+    text-align: center;    
+  }
+   /* Change the color of links on hover */
+  .navigation:hover {
+    background-color: rgb(204, 234, 73);
+    color: black;
+  }
