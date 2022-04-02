@@ -1,3 +1,6 @@
+*{
+    font-family: Calibri, Sans-Serif;
+}
 header{
     display: flex;
      height: 200px;
@@ -111,6 +114,8 @@ div.main a:hover {
   .statement{
       display: flex;
       justify-content: center;
+      padding: 10px;
+      font-size: 17px;
   }
   .button1{
     display: flex;
@@ -128,5 +133,17 @@ div.main a:hover {
       color: rgb(204, 234, 73);
       font-family: Helvetica, Sans-Serif;
   }
+  .Testimonials{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 800px;
+      margin: 0 auto;
+      background-color:rgb(105, 207, 249);
+      padding: 10px;
+      font-size: 17px;      
+  }
+  
+
 
 
