@@ -23,7 +23,7 @@ h1{
     margin: 10px 20px;
 }
 hr{
-  border-top: 10px solid rgb(204, 234, 73);
+  border-top: 3px solid rgb(204, 234, 73);
   margin: 0px;
 } 
   nav{
@@ -51,31 +51,8 @@ hr{
     text-align: center;
     font-family: Arial, Sans-serif;
   }
-  .container1{
-    display: flex;    
-    justify-content: center;
-    margin: 20px 120px 0px 0px;
-    font-family: Helvetica, Sans-Serif;    
-  }
-  .logo2{
-      margin: 0 20px;
-  }
-  .button1{
-    display: flex;
-    background:rgb(54, 54, 106);
-    color:rgb(204, 234, 73);
-    height: 75px;
-    margin: 20px;
-    padding: 0px 30px;
-    justify-content: center;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);      
-  }
-  .button1 a{
-      color: rgb(204, 234, 73);
-      font-family: Helvetica, Sans-Serif;
-  }
+  
+  
   .main{
     display:flex;
     flex-direction: column;
@@ -108,7 +85,8 @@ div.main a:hover {
 .Headline {
     display: flex;
     justify-content: center;    
-    font-family: Helvetica, sans-serif;    
+    font-family: Helvetica, sans-serif;
+    color:rgb(54, 54, 106);    
 }
 .Support{
     display: flex;
@@ -118,4 +96,35 @@ div.main a:hover {
     text-align: center;
     font-size: 17px;  
 }
+.container1{
+    display: flex;    
+    justify-content: center;
+    margin: 20px 120px 0px 0px;
+    font-family: Helvetica, Sans-Serif;    
+  }
+  .logo2{
+      margin: 0 20px;
+  }
+  .button1{
+    display: flex;
+    background:rgb(54, 54, 106);
+    color:rgb(204, 234, 73);
+    height: 75px;
+    margin: 20px;
+    padding: 0px 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);      
+  }
+  .button1 a{
+      color: rgb(204, 234, 73);
+      font-family: Helvetica, Sans-Serif;
+  }
+.container2{
+    display: flex;    
+    justify-content: center;
+    margin: 20px 120px 0px 0px;
+    font-family: Helvetica, Sans-Serif;    
+  }
 
