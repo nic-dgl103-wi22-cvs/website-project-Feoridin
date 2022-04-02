@@ -134,15 +134,30 @@ div.main a:hover {
       font-family: Helvetica, Sans-Serif;
   }
   .Testimonials{
+      border-radius: 10px;
       display: flex;
       justify-content: center;
-      flex-direction: row;
+      flex-direction: column;
       width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
       background-color:rgb(105, 207, 249);
-      padding: 10px;
-      font-size: 17px;      
-  }
+      padding: 20px;    
+    }
+    .TestimonialA{
+        display: flex;       
+    }
+    .box1{
+        margin: 0px 20px;
+    }
+    .TestimonialB{
+        display: flex;
+        margin: 20px auto;       
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
   
 
 
