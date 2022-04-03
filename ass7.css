@@ -1,0 +1,164 @@
+header{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+nav{
+position: relative;
+background-color: rgb(190, 188, 188);
+display: flex;
+      
+}
+.nav1{
+display: flex;
+margin: 0px auto;/*prevents from resizing of the flex box of navigation links due to change of resolution*/
+}
+.navigation {
+padding: 10px 20px;
+font-size: 17px;
+width: 160px;/*set the size of the flexbox of the nav link*/ 
+text-align: center;/*align text to center of flex box*/ 
+    
+}
+.navigation a{
+color: white;/*overrides the color of nav link to white*/
+}
+.navigation:hover {
+background-color: rgb(68, 233, 156);/*color of flexbox background when hover*/
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    border-collapse: collapse;/*border orientation*/
+    margin: 0 auto;/*centers the table*/
+    
+  }
+  caption {
+    font-size: 2em;/*table title styles*/
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+    
+  }
+  td,th {
+  border: 1px solid rgb(88, 86, 86);/*border styles*/
+  padding: 8px;/*data box padding*/
+}
+th {
+    padding-top: 12px;/*table header styles*/
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(68, 233, 156);
+    color: white;
+  }
+  tr:nth-child(even) {/*data box color to rows that are even in number*/
+    background-color: rgb(190, 188, 188);
+  }
+  tbody tr:hover {/*color of row changes when hover*/
+    background-color: rgb(216, 212, 212);
+  }
+  * {
+    box-sizing: border-box;/*sets padding and border are included in the width and height*/
+  }
+  
+  /* ===============
+     TYPOGRAPHY
+     =============== */
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* ===============
+     BUTTONS
+     =============== */
+  
+  input[type="reset"] {
+    color: #0e7a0d;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #d1efe3;
+  }
+  
+  input[type="submit"] {
+    background-color: #0e7a0d;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #00ab66;
+  }
+  
+  /* ===============
+     STRUCTURE
+     =============== */
+  
+  .wrapper-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  .wrapper-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* ===============
+     FORM CONTROLS
+     =============== */
+  
+  input,
+  select,
+  textarea {
+    font-size: 1em;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  textarea {
+    font-family: sans-serif;
+  }
+  
+  fieldset {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .label-required {
+    font-size: 0.8rem;
+    color: red;
+  }
+  
