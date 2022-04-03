@@ -294,7 +294,8 @@ div.main a:hover {
     margin: 0 20px 0px 50px;
   }
   footer{
-     background-color: rgb(105, 207, 249);
+    background-image: url(Images/todays-rdh-dental-instruments.png);
+     background-size: 100%;
     height: 200px;
   }
   .box5{
