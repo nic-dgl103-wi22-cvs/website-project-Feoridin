@@ -4,7 +4,7 @@
 header{
     display: flex;
      height: 200px;
-     justify-content: center;     
+     justify-content: center;       
     }
 .logo{
     margin: 0px 10px;
@@ -27,6 +27,17 @@ h1{
     font-family: Arial, Sans-serif;
     margin: 10px 20px;
 }
+.logo3{/*floating messenger icon fixed position when scrolled */
+  margin: 10px 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  opacity: 0.7;
+
+}
+
+
 hr{
   border-top: 3px solid rgb(204, 234, 73);
   margin: 0px;
@@ -118,7 +129,7 @@ div.main a:hover {
   .statement{
       display: flex;
       justify-content: center;
-      padding: 10px;
+      padding: 0px 10px 0px 10px;
       font-size: 17px;
   }
   .button1{
@@ -282,7 +293,15 @@ div.main a:hover {
   .box4{
     margin: 0 20px 0px 50px;
   }
- 
+  footer{
+     background-color: rgb(105, 207, 249);
+    height: 200px;
+  }
+  .box5{
+    display: flex;
+    justify-content: center;
+  }
+
 
 
 
