@@ -208,11 +208,12 @@ div.main a:hover {
        =============== */
     
     .wrapper-form {
+     
       border-radius: 5px;
       background-color: #f2f2f2;
-      padding: 20px;
-      max-width: 800px;
-      margin: 10px auto;
+      padding: 0px 20px;
+      max-width: 600px;
+      margin: 0 50px 0px 20px;
     }
     
     .wrapper-button {
@@ -251,6 +252,15 @@ div.main a:hover {
       margin-bottom: 16px;
       resize: vertical;
     }
+    input[type="contact"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
     
     textarea {
       font-family: sans-serif;
@@ -267,7 +277,12 @@ div.main a:hover {
     }
   .BOTTOM{
     display: flex;
+    justify-content: space-evenly;
   }
+  .box4{
+    margin: 0 20px 0px 50px;
+  }
+ 
 
 
 
