@@ -1,5 +1,6 @@
 *{
-    font-family: Calibri, Sans-Serif;  /*--default font--*/    
+    font-family: Calibri, Sans-Serif;  /*--default font--*/  
+    text-size-adjust: auto;  
 }
 header{
     display: flex;
@@ -70,10 +71,24 @@ hr{
   }
   .main{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      margin: 0 30px;
+      
   }   
   .box1{
       display: flex;
       flex-direction: column;
-      margin: 0 50px;
+      margin: 0 30px;
+      flex-wrap: wrap;
+      
    }
+   .box2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    
+  }
+  .box2 h2{
+    display: flex;
+    justify-content: center;
+  }
