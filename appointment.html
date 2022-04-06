@@ -51,6 +51,53 @@
             <p>Due to COVID&ndash;19 pandemic we are strictly by appointment only until further notice. We can accommodate 1 to 2 patients only per day during week days and 4 to 5
                 patients per day during weekends. Please answer the questionnaire. Print, sign and bring it on the date of your appointment. This will serve also as proof of 
                 appointment. We will confirm your appointment via email or call 2 to 3 days before your appointment date. Please take note of the following&colon;</p>
+                <ul>
+                    <li>Wearing face mask is a requirement</li>
+                    <li>Companion is not allowed inside the clinic and treatment room except for minor</li>
+                    <li>We encourage you to make the clinic as your first destination for the day</li>
+                    <li>Patient is encourage to bring one bag only and wear minimal jewelry</li>
+                  </ul>
+            <p>This questionnaire is designed with your safety in mind and must be answered honestly. Your answers will be reviewed prior to your appointment and a member of
+                 our team will contact you if we recommend rescheduling to a later date. An answer of YES does not exclude you from treatment. Please answer YES or NO to each
+                  of the following questions. Thank you for your consideration and understanding.</p>
+                  <div class="wrapper-form">
+                    <h2>Contact Us</h2>
+                    <p>Consult with our team online by filling out the form below. If you have specific inquiries regarding our services, please don't hesitate to get in touch. We will respond as soon as possible.</p>
+                    <form method="post" action="https://learndigital.dev/programs/dgl103-form.php"><!--<form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.-->
+                      <label for="fname">First Name</label><!-- <label> tag defines a label for several elements-->
+                      <input type="text" id="fname" name="firstname" placeholder="Ex: John"><!-- defines a single-line text field-->
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Ex: Doe">
+                  
+                      <label for="email">Email <span class="label-required">* (required)</span></label>
+                      <input type="email" id="email" name="email" placeholder="Ex: johndoe@yahoo.com" required>
+          
+                      <label for="number">Contact Number <span class="label-required">* (required)</span></label>
+                      <input type="number" id="number" name="number" placeholder="+63 912 345 6789" required>
+
+                      <form action="/action_page.php"><!--date form-->
+                        <label for="appointment1">Preferred Date of Visit: <span class="label-required">* (required)</span></label>
+                        <input type="date" id="appointment1" name="appointment1">
+                        
+                      </form>                          
+                        <label for="message">Your Concerns</label>
+                        <textarea id="message" name="message" placeholder="Please tell us your concerns..." style="height:200px"></textarea><!--textarea tag defines a multi-line text input control(Textbox)-->
+                        <h2>Health Declaration</h2>
+                        <fieldset><!-- <fieldset> tag is used to group related elements in a form and draws a box around the related elements-->
+                            <legend>Do you have a fever or above normal temperature?*</legend><!--caption for the fieldset-->
+                            <input type="radio" id="01" name="message" value="feedback">
+                            <label for="01">Yes</label><br>
+                            <input type="radio" id="02" name="message" value="inquiry">
+                            <label for="02">No</label><br>                
+                          </fieldset>
+                  
+                      <div class="wrapper-button"><!--Reset and Submit Buttons-->
+                          <input type="reset" value="Reset">
+                          <input type="submit" value="Submit">
+                      </div>
+                  </form>
+                  </div>
         </div>       
     </div>
 
