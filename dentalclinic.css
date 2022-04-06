@@ -1,10 +1,13 @@
 *{
     font-family: Calibri, Sans-Serif;
+    
+    
 }
 header{
     display: flex;
      height: 200px;
-     justify-content: center;       
+     justify-content: center;   
+     position: relative;    
     }
 .logo{
     margin: 0px 10px;
@@ -184,6 +187,7 @@ div.main a:hover {
     
     body {
       font-family: sans-serif;
+      position: relative;
     }
     
     /* ===============
