@@ -318,9 +318,10 @@ div.main a:hover {
   .box6{
     background-image: url(Images/DISINFECTANTS-FOR-DENTAL-final.jpg);
     background-size: 100%;
-    background-position-y: 100%;
+    background-position-y: 404px;
     background-repeat: no-repeat;
     flex-wrap: wrap;
+    position:sticky;
   }
  
 
