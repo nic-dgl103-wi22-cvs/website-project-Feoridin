@@ -2,6 +2,7 @@
     font-family: Calibri, Sans-Serif;  /*--default font--*/  
     text-size-adjust: auto;
     color:rgb(54, 54, 106);
+    box-sizing: border-box;/*sets padding and border are included in the width and height*/
 } 
     header{
     display: flex;
@@ -75,6 +76,7 @@ hr{
   .box1{
     width: 70%;
     margin: 0 auto;
+    padding: 0px 50px;
   }
   .box2{
     display: flex;
@@ -87,6 +89,152 @@ hr{
     display:flex;
     margin: 170px 10px 10px 10px;
   }
-  .pic2, .pic2, .pic3, .pic4{
+  .pic2, .pic2, .pic3, .pic4, .pic5{
     margin: 10px auto;
   }
+  .container1{
+    display:flex;
+  }
+  .logo2{
+    margin: 0 20px;
+}
+.statement{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
+}
+.button1{
+  display: flex;
+  background:rgb(54, 54, 106);
+  color:rgb(204, 234, 73);
+  height: 75px;
+  margin: 5px;
+  padding: 0px 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);      
+}
+.button1 a{
+    color: rgb(204, 234, 73);
+    font-family: Helvetica, Sans-Serif;
+}
+/* ===============
+       TYPOGRAPHY
+       =============== */
+    
+       body {
+        font-family: sans-serif;
+        position: relative;
+      }
+      
+      /* ===============
+         BUTTONS
+         =============== */
+      
+      input[type="reset"] {
+        color: #0e7a0d;
+        padding: 12px 20px;
+        border: 1px solid #0e7a0d;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="reset"]:hover {
+        background-color: #d1efe3;
+      }
+      
+      input[type="submit"] {
+        background-color: #0e7a0d;
+        color: white;
+        padding: 12px 20px;
+        border: 1px solid #0e7a0d;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #00ab66;
+      }
+      
+      /* ===============
+         STRUCTURE
+         =============== */
+      
+      .wrapper-form {
+       
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 0px 20px;
+        max-width: 600px;
+        margin: 0 50px 0px 20px;
+      }
+      
+      .wrapper-button {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      /* ===============
+         FORM CONTROLS
+         =============== */
+      
+      input,
+      select,
+      textarea {
+        font-size: 1em;
+      }
+      
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="number"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      textarea {
+        font-family: sans-serif;
+      }
+      
+      fieldset {
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+      }
+      
+      .label-required {
+        font-size: 0.8rem;
+        color: red;
+      }
+    .BOTTOM{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 10px auto;
+    }
+    .box4{
+      margin: 0 20px 0px 50px;
+    }
