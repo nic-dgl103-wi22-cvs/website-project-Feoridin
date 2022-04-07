@@ -1,6 +1,8 @@
 *{
     font-family: Calibri, Sans-Serif;
-    color:rgb(54, 54, 106)
+    color:rgb(54, 54, 106);
+    box-sizing: border-box;/*sets padding and border are included in the width and height*/
+    
          
 }
 header{
@@ -38,10 +40,7 @@ h1{
   top: 0;
   z-index: 100;
   opacity: 0.7;
-
 }
-
-
 hr{
   border-top: 3px solid rgb(204, 234, 73);
   margin: 0px;
@@ -112,7 +111,7 @@ div.main a:hover {
     margin: 0 auto;
     text-align: center; 
     font-size: 25px;
-    text-size-adjust: auto;   
+      
 }
 .Support{
     display: flex;
@@ -121,7 +120,7 @@ div.main a:hover {
     margin: 0 20%;
     text-align: center;
     font-size: 17px;    
-    text-size-adjust: auto;
+    
 }
 .container1{
     display: flex;    
@@ -180,10 +179,7 @@ div.main a:hover {
         flex-direction: column;
         margin: 0px 20px;
     }
-    * {
-      box-sizing: border-box;/*sets padding and border are included in the width and height*/
-    }
-    
+        
     /* ===============
        TYPOGRAPHY
        =============== */
@@ -300,6 +296,7 @@ div.main a:hover {
   }
   .box4{
     margin: 0 20px 0px 50px;
+    
   }
   footer{
     background-image: url(Images/todays-rdh-dental-instruments.png);
