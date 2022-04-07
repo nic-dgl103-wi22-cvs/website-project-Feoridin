@@ -248,7 +248,9 @@ hr{
       margin: 10px auto;
     }
     .box4{
+      align-items: flex-end;
       margin: 0 20px 0px 50px;
+
     }
     footer{
       background-image: url(Images/todays-rdh-dental-instruments.png);
