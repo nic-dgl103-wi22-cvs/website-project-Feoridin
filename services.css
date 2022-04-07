@@ -238,3 +238,17 @@ hr{
     .box4{
       margin: 0 20px 0px 50px;
     }
+    footer{
+      background-image: url(Images/todays-rdh-dental-instruments.png);
+       background-size: 100%;
+      height: 200px;
+    }
+    .box5{
+      display: flex;
+    }
+    .blogo{
+      margin: 0 50px;
+    }
+    .fb{
+      margin: 50px 0px;
+    }
