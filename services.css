@@ -1,8 +1,6 @@
 *{
     font-family: Calibri, Sans-Serif;  /*--default font--*/  
     text-size-adjust: auto;
-    box-sizing: border-box;/*sets padding and border are included in the width and height*/
-    position: relative;
     color:rgb(54, 54, 106);
 } 
     header{
@@ -69,6 +67,26 @@ hr{
     text-align: center;
     font-family: Arial, Sans-serif;
   }
-  .main p, li{
-    font-size: 17px;
+  .main{
+    font-size: 17px; 
+    display:flex;
+    justify-content: space-evenly;   
+  }
+  .box1{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(105, 207, 249);
+    width: 30%;
+  }
+  .pic1{
+    display:flex;
+    margin: 170px 10px 10px 10px;
+  }
+  .pic2, .pic2, .pic3, .pic4{
+    margin: 10px auto;
   }
