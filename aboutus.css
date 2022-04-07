@@ -26,12 +26,6 @@ h1{
   color:rgb(54, 54, 106);
   font-size: 35px;
 }
-h2{
-    height: 0px;/*makes the address and title near each other*/
-    font-family: Helvetica, Sans-Serif;
-    color:rgb(54, 54, 106);
-    font-size: 25px;
-  }
 .address{
     display: flex;
     font-family: Arial, Sans-serif;
@@ -79,59 +73,44 @@ hr{
       justify-content: space-evenly;
   }
   .box1{
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:rgb(105, 207, 249);
-    width: 10%;
-}
-.box2{
-    display: flex;
-      flex-direction: column;
-      align-items: left;
-      margin: 0 20px;
-      width: 80%;
-      font-size: 17px;
-  }
-  .box3{
-    display: flex;
+      display: flex;
       flex-direction: column;
       align-items: center;
       background-color:rgb(105, 207, 249);
-      width: 10%;
+      width: 30%;
   }
-  .box2 a, h2{
+  .boxc{
+      margin: 100px auto;
+  }
+  .boxd{
+      margin: 100px auto;
+  }
+  .boxe{
+      margin: 100px auto;
+  }
+  
+  
+  .box2{
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      width: 70%;
+      margin: 0px 20px;
+      font-size:20px;
   }
-  .container1{
-    display:flex;
+  .box3{
+    margin: 20px auto;
   }
-  .logo2{
-    margin: 0 20px;
-}
-.statement{
+  .boxa{
+      margin: 0px 20px;
+  }
+  .boxb{
     display: flex;
-    justify-content: center;
-    padding: 0px 10px 0px 10px;
-    font-size: 17px;
-}
-.button1{
-  display: flex;
-  background:rgb(54, 54, 106);
-  color:rgb(204, 234, 73);
-  height: 75px;
-  margin: 5px;
-  padding: 0px 30px;
-  justify-content: center;
-  text-align: center;
-  border-radius: 50px;
-  box-shadow: 5px 5px 6px 2px rgb(192, 192, 192);      
-}
-.button1 a{
-    color: rgb(204, 234, 73);
-    font-family: Helvetica, Sans-Serif;
-}
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0px auto;
+    font-size:20px;
+  }
   /* ===============
        TYPOGRAPHY
        =============== */
