@@ -3,7 +3,7 @@
     text-size-adjust: auto;
     box-sizing: border-box;/*sets padding and border are included in the width and height*/
     position: relative;
-    color:rgb(54, 54, 106)
+    color:rgb(54, 54, 106);
 } 
     header{
     display: flex;
@@ -55,8 +55,8 @@ hr{
     /* Style the links inside the navigation bar */
   .navigation {
     padding: 10px 20px;
-    font-size: 17px;
-    width: 120px;
+    font-size: 25px;
+    width: 200px;
     text-align: center;    
   }
    /* Change the color of links on hover */
